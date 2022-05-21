@@ -1,106 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    margin: 15px 50px;
-}
-.logo{
-    width: 25vw;
-    height: 50px;
-    background-color: gray;
-    display: inline-block;
-    margin: 10px 0px 10px 10px;
+    margin:10px;
 }
 
-.future{
-    width: 50vw;
-    height: 50px;
-    background-color: gray;
-    display: inline-block;
-    margin: 10px 0px 10px 10px;
-
-}
-
-.navbar{
-    height: 40px;
-    background-color: gray;
-    margin-bottom: 30px;
-    width: 98.8%;
-}
-
-.dealof{
-    width: 43vw;
-    height: 22vh;
-    background-color: gray;
+.header-1{
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
 }
 
-.partners{
-    width: 43vw;
-    height: 19vh;
+.header-1 .logo{
     background-color: gray;
+    width: 300px;
+    height: 80px;
+}
+
+.header-1 .future{
+    background-color: gray;
+    width: 700px;
+    height: 80px;
+}
+
+.header-2{
+    background-color: gray;
+    width: 1420px;
+    height: 80px;
     margin-bottom: 20px;
 }
 
-.categorized{
-    width: 43vw;
-    height: 25vh;
-    background-color: gray;
+.main-base{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-1{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
-.sign-up{
-    width: 20vw;
-    height: 27vh;
+.main-1 .deal{
     background-color: gray;
-    margin-bottom: 20px;
-    margin-left: 20px;
-
+    width: 700px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
-.pet{
-    width: 20vw;
-    height: 41vh;
+.main-1 .partners{
     background-color: gray;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    width: 700px;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
-.description{
-    width: 28.1vw;
-    height: 15vh;
+.main-1 .categorized{
     background-color: gray;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 10px;
 }
 
-.blog{
-    width: 28.1vw;
-    height: 34vh;
-    background-color: gray;
+.main-2{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
-    margin-left: 20px;
 }
 
-.discussion{
-    width: 28.1vw;
-    height: 17vh;
+.main-2 .membership{
     background-color: gray;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main-2 .insurance{
+    background-color: gray;
+    width: 350px;
+    height: 710px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main-3{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
-    margin-left: 20px;
+}
+
+.main-3 .description{
+    background-color: gray;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main-3 .last{
+    background-color: gray;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.main-3 .discussion{
+    background-color: gray;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .footer{
-    height: 8vh;
-    width: 98.8%;
     background-color: gray;
+    width: 1420px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
-.main-left-side{
-    display: inline-block;
-}
-
-.main-middle-side{
-    display: inline-block;
-}
-
-.main-right-side{
-    display: inline-block;
+.text{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 10px;
 }
